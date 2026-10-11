@@ -1,0 +1,17 @@
+{
+  "project": "iron-blood",
+  "run_id": "bench-01",
+  "prompt": "Создай полноценную браузерную игру IRON BLOOD — жестокий 2D cinematic fighting game (TypeScript + React + Vite + Canvas) по спецификации из файла «prompt — копия.md»: frame-based боевая система со state machine, hitbox/hurtbox, input buffer и motion inputs, комбо, спецприёмы и супер, perfect block, броски, AI с 4 уровнями сложности, 6 персонажей + босс The Archon с фазой 2, 3 арены, Arcade/Versus/Training, HUD, финишеры, настройки, сохранения в localStorage, тесты Vitest, README. Автономная разработка по milestones с проверкой каждого этапа.",
+  "model": "claude-fable-5-1",
+  "metrics": {
+    "tokens": {
+      "prompt": 83287,
+      "completion": 136458,
+      "total": 219745
+    },
+    "duration_ms": 3891717,
+    "tokens_note": "Оценка: точные значения API недоступны. completion ≈ байты исходников/3.2, prompt ≈ байты ТЗ/2.5 + контекст инструментов."
+  },
+  "output_preview": "Игра IRON BLOOD готова и проверена в Chrome: главное меню → Arcade → выбор персонажа → интро с диалогом и крупным планом → ROUND 1 / FIGHT → комбо J-J-K-I, Crimson Slash, Blood Dash, Execution Grab, супер Blood Rush с damage summary, блок/perfect block, бросок → KO → END HIM → финишер Crimson Execution → следующий противник → босс The Archon с PHASE 2 → ARCADE COMPLETE с разблокировками (Archon, скин crimson, Nightmare, галерея) → сохранение и настройки переживают перезагрузку. Versus на одной клавиатуре, Training с панелью, hitbox-дисплеем и frame data, пауза, настройки (графика/аудио/рибинд/accessibility), touch controls, F3 debug, F4–F8 dev-читы. Архитектура: headless детерминированная Simulation (fixed 60 Hz, seeded RNG, input как данные), data-driven персонажи/атаки, процедурные скелетные анимации, параллакс-арены, WebAudio синтез SFX и музыки. 39 тестов Vitest, lint и production build чистые. Запуск: npm install && npm run dev.",
+  "status": "success"
+}

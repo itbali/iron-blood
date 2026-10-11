@@ -1,0 +1,16 @@
+{
+  "project": "iron-blood",
+  "run_id": "bench-01",
+  "prompt": "Создай полноценную браузерную 2D-игру-файтинг IRON BLOOD (TypeScript + React + Vite + Canvas) по спецификации из файла «prompt — копия.md»: бой на frame data, комбо, спецприёмы, блок/perfect block, броски, ИИ 4 уровней, 6 персонажей + босс The Archon, 3 арены, Arcade/Versus/Training, HUD, финишеры, настройки, сохранения, тесты, README.",
+  "model": "claude-sonnet-5-5",
+  "metrics": {
+    "tokens": {
+      "prompt": 420000,
+      "completion": 150000,
+      "total": 570000
+    },
+    "duration_ms": 3099000
+  },
+  "output_preview": "Игра IRON BLOOD готова: src/ (combat, characters, ai, input, effects, scenes, audio, progression, ui), 35 тестов Vitest проходят, lint и production build чистые, сквозной Arcade-прогон (меню → выбор → VS → 5 боёв → босс/фаза 2 → концовка → сохранение) проверен в браузере. Запуск: npm install && npm run dev.",
+  "status": "success"
+}

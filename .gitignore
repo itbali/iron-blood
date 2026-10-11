@@ -1,0 +1,6 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.DS_Store
+# копии общего prompt.md в папках версий (идентичны корневому)
+prompt — копия.md

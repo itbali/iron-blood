@@ -1,0 +1,17 @@
+{
+  "project": "iron_blood",
+  "run_id": "bench-01",
+  "prompt": "Создай игру по @\"prompt — копия.md\": полноценный браузерный 2D-файтинг IRON BLOOD (TypeScript + React + Vite + Canvas) — главное меню, выбор из 6 персонажей + босс The Archon, frame-based боевая система со state machine, хитбоксами/хёртбоксами, комбо, блоком/perfect block, захватами, спецприёмами, суперами и добиваниями, AI с 4 уровнями сложности, раунды Best of 3, таймер, Arcade/Versus/Training, 3 арены, процедурные звук и музыка, настройки, прогресс в localStorage, тесты, README; работать автономно до рабочего состояния. После завершения сохранить JSON-отчёт в data/runs/.",
+  "model": "claude-opus-5-5",
+  "metrics": {
+    "tokens": {
+      "prompt": 340000,
+      "completion": 160000,
+      "total": 500000
+    },
+    "duration_ms": 9840000
+  },
+  "notes": "Точное число токенов из API недоступно: значения — оценка (накопленный контекст сессии ~490k токенов; сгенерировано ~12.4k строк кода в src + README). duration_ms — оценка от времени создания задачи (~18:50) до завершения (~21:34).",
+  "output_preview": "IRON BLOOD v1.0.0 — играбельный vertical slice: Vite+React+TS, собственный Canvas-движок с фиксированным шагом 60 Гц. Raven, Vera, Brute, Kai, Wraith, Titan + босс The Archon (2000 HP, броня, PHASE 2). Комбо J→J→K→I, спецприёмы (→→I, ↓→I, ↓←O), супер I+O, END HIM и 3 типа добиваний, perfect block, броски с техом. AI EASY/NORMAL/HARD/NIGHTMARE через тот же input-путь. Arcade (4 боя + босс + концовка и разблокировки), Versus 2P, Training (frame data), F3 debug, dev-читы F4–F8. 31 тест Vitest проходит; tsc, eslint, build — без ошибок; полный Arcade-прогон до ARCADE COMPLETE и проверка сохранения после перезагрузки выполнены в браузере.",
+  "status": "success"
+}
